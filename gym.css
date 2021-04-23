@@ -1,0 +1,130 @@
+
+body{
+    background-image: url(/dumbbell-1966247.jpg);
+    height: 800px;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+/* header{
+    
+} */
+header img{
+    padding: 20px 0px 0px 20px;
+    margin: 0px;
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+h1{
+    padding-left: 20px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    top: 100px;
+    left: -220px;
+}
+ .one ul li{
+    display: inline;
+    margin: 20px;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 90px; 
+}
+a{
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.one:hover{
+    color: grey;
+}
+.two ul li{
+    display: inline;
+    margin: 10px;
+    font-size: medium;
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 30px;
+}
+li .two{
+    background-color: rgba(128, 128, 128, 0.212);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.two:hover{
+    background-color: white;
+    color: black;
+}
+form{
+    background-color: rgba(128, 128, 128, 0.212);
+    position: relative;
+    top: 120px;
+    left: 50px;
+    border-radius: 7px;
+    padding: 50px 10px 50px 30px ;
+    width: 780px;
+    border: 1px solid white;
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+}
+form div{
+    font-size: x-large;
+    margin: 15px;
+}
+input[type=submit]{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 95.7%;
+    margin-left: 16px;
+    padding: 10px 0px;
+    font-size: large;
+    transition: 00.5s;
+}
+input[type=submit]:hover{
+    background-color: rgba(128, 128, 128, 0.212) ;
+}
+input[type=text],input[type=number],input[type=email],input[type=tel], select{
+    border-radius: 4px;
+    border: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.580);
+    color: black;
+}
+::placeholder{
+    color: black;
+}
+#name{
+    margin-left: 55px;
+}
+#age{
+    margin-left: 80px;
+}
+#gender{
+    margin-left: 31px;
+}
+#locality{
+    margin-left: 30px;
+}
+#email{
+    margin-left: 30px;
+}
+#phoneno{
+    margin-left: 7px;
+}
+select{
+    width: 82%;
+    color: black;
+}
